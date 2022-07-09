@@ -21,10 +21,14 @@ function pushtoarray() {
 }
 function constructtable() {
 
-    itemsJsonarraystr = window.localStorage.getItem('itemsJson')
-    itemsJsonarray = JSON.parse(itemsJsonarraystr);
-
-
+    if (window.localStorage.getItem('itemsJson')==null){
+                    itemsJsonarray = []; 
+                    window.localStorage.setItem('itemsJson', JSON.stringify(itemsJsonsrray))
+     } 
+     else{
+                    itemsJsonarraystr = window.localStorage.getItem('itemsJson')
+                    itemsJsonarray = JSON.parse(itemsJsonarraystr);
+     }
     let tablebody = document.getElementById('tablebody');
     let str = "";
 
