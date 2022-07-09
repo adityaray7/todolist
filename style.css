@@ -131,6 +131,7 @@ li {
     width: 400px;
     height: 40px;
     font-size: large;
+    font-family: cursive;
 }
 
 
@@ -146,3 +147,8 @@ td {
     border: 1px solid black;
     width: 200px;
 }
+.table{
+    background-color: red;
+    margin-left:auto; 
+    margin-right:auto}
+    
