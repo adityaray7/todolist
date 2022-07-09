@@ -23,7 +23,7 @@ function constructtable() {
 
     if (window.localStorage.getItem('itemsJson')==null){
                     itemsJsonarray = []; 
-                    window.localStorage.setItem('itemsJson', JSON.stringify(itemsJsonsrray))
+                    window.localStorage.setItem('itemsJson', JSON.stringify(itemsJsonarray))
      } 
      else{
                     itemsJsonarraystr = window.localStorage.getItem('itemsJson')
