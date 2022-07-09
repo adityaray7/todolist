@@ -47,7 +47,7 @@ function constructtable() {
                     <th scope="row">${index + 1}</th>
                     <td>${element[0]}</td>
                     <td>${element[1]}</td>
-                    <td><button onclick=" del(${index})">Delete</button></td>
+                    <td><button class='tablebutton' onclick=" del(${index})">Delete</button></td>
                     </tr>
         `  ;
     });
