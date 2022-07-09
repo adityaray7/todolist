@@ -148,7 +148,25 @@ td {
     width: 200px;
 }
 .table{
-    background-color: red;
     margin-left:auto; 
-    margin-right:auto}
+    margin-right:auto;
+    margin-top:20px;
+}
+#submit {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+.tablebutton{
+    background-color: rgb(231, 106, 100);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+
+  }
     
